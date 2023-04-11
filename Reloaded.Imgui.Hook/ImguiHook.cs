@@ -230,7 +230,7 @@ namespace Reloaded.Imgui.Hook
         }
 
         /// <summary>
-        /// [Internal] Called from renderer implementation, renders a new frame.
+        /// [Internal] Called from renderer implementation, creates a new imgui context from the window handle.
         /// </summary>
         public static unsafe void InitializeWithHandle(IntPtr windowHandle)
         {

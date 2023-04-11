@@ -7,9 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reloaded.Imgui.Hook", "Relo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reloaded.ImGui.TestMod", "Reloaded.ImGui.TestMod\Reloaded.ImGui.TestMod.csproj", "{5CD1D2EC-EA12-4404-BD1C-692366363507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reloaded.Imgui.Hook.Direct3D9", "Reloaded.Imgui.Hook.Direct3D9\Reloaded.Imgui.Hook.Direct3D9.csproj", "{A15802EC-05E3-465B-AA70-433EB7BD0609}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reloaded.Imgui.Hook.Direct3D9", "Reloaded.Imgui.Hook.Direct3D9\Reloaded.Imgui.Hook.Direct3D9.csproj", "{A15802EC-05E3-465B-AA70-433EB7BD0609}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reloaded.Imgui.Hook.Direct3D11", "Reloaded.Imgui.Hook.Direct3D11\Reloaded.Imgui.Hook.Direct3D11.csproj", "{5AD6356D-4587-4540-AD98-4903848F281F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reloaded.Imgui.Hook.Direct3D11", "Reloaded.Imgui.Hook.Direct3D11\Reloaded.Imgui.Hook.Direct3D11.csproj", "{5AD6356D-4587-4540-AD98-4903848F281F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reloaded.Imgui.Hook.OpenGL3", "Reloaded.Imgui.Hook.OpenGL3\Reloaded.Imgui.Hook.OpenGL3.csproj", "{5960E01F-DB24-45BA-B585-CFC8BABD984A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B28CC580-3F4B-43FD-849E-3DCA871AB86D} = {B28CC580-3F4B-43FD-849E-3DCA871AB86D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reloaded.Imgui.Hook.GLFW", "Reloaded.Imgui.Hook.GLFW\Reloaded.Imgui.Hook.GLFW.csproj", "{7431E399-2460-41F1-8426-BC5442D84205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +76,30 @@ Global
 		{5AD6356D-4587-4540-AD98-4903848F281F}.Release|x64.Build.0 = Release|Any CPU
 		{5AD6356D-4587-4540-AD98-4903848F281F}.Release|x86.ActiveCfg = Release|Any CPU
 		{5AD6356D-4587-4540-AD98-4903848F281F}.Release|x86.Build.0 = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|x64.Build.0 = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Debug|x86.Build.0 = Debug|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|x64.ActiveCfg = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|x64.Build.0 = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5960E01F-DB24-45BA-B585-CFC8BABD984A}.Release|x86.Build.0 = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|x64.Build.0 = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Debug|x86.Build.0 = Debug|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|x64.ActiveCfg = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|x64.Build.0 = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|x86.ActiveCfg = Release|Any CPU
+		{7431E399-2460-41F1-8426-BC5442D84205}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
